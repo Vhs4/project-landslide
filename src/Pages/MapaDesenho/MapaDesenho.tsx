@@ -155,7 +155,8 @@ export default function MapaDesenho() {
     return `rgb(${intensity}, ${intensity}, ${intensity})`
   }
 
-  const navigateToFavela = (center: LatLngTuple, name: string) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  const navigateToFavela = (center: LatLngTuple, _name: string) => {
     setMapCenter(center)
     setMapZoom(15)
   }
